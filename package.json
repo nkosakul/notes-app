@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "note": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/nkosakul/notes-app/issues"
   },
-  "homepage": "https://github.com/nkosakul/notes-app#readme"
+  "homepage": "https://github.com/nkosakul/notes-app#readme",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
 }
